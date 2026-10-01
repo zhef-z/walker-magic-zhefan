@@ -72,3 +72,7 @@ Check: the hat/capelet indigo must stay at least one value step brighter than th
 
 ## Open
 - Name, hat and outfit confirmation.
+
+## Revision 1 — 2026-10-01 (after reference generation)
+- Tunic length: accepted at mid-thigh instead of knee-length. The generated reference (CHAR-REF v2) drew it shorter; at 64 px the shorter tunic shows more leg and makes the run and jump poses easier to read, so I kept it.
+- Staff thickness: shaft made thicker in v2 after the 64 px check showed the v1 staff breaking into loose pixels.

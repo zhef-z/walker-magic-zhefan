@@ -77,3 +77,5 @@ Rule: game code emits a signal for the event; an audio node listens and plays th
 
 ## Tuning values (predictions, adjusted after playtest)
 Player 5 HP, 1 s invulnerability · fireball 1 damage, 0.35 s cooldown · heal once, 1 s channel · wolf 2 HP, 0.5 s growl, 1 damage · boss 10 HP, 0.7 s growl, 2.5–3 s between lunges, 0.8 s pause after each, 2 damage · stalactite 1 damage, 0.6 s shake before falling.
+
+- 2026-10-01: Revision 1 appended to CHARACTER-SHEET.md (tunic mid-thigh, thicker staff shaft; CHAR-REF v2 accepted, v1 and v3 rejected).

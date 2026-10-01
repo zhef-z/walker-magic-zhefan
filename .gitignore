@@ -20,3 +20,9 @@ credentials*
 secrets*
 *service-account*.json
 export_credentials.cfg
+
+# Local tool installs and model weights (live in E:\7270\tools, never here)
+.venv/
+*.safetensors
+*.ckpt
+hf_token*
