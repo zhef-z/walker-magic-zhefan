@@ -1,0 +1,22 @@
+# Godot cache
+.godot/
+.import/
+
+# Audio / video (not committed)
+*.mp3
+*.mp4
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.keystore
+*.jks
+id_rsa*
+credentials*
+secrets*
+*service-account*.json
+export_credentials.cfg
