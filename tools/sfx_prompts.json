@@ -1,0 +1,22 @@
+{
+  "model": "stable_audio_open_1.0.safetensors",
+  "text_encoder": "t5_base.safetensors",
+  "seeds": [1, 2, 3],
+  "steps": 100,
+  "cfg": 7.0,
+  "sampler": "dpmpp_3m_sde_gpu",
+  "scheduler": "exponential",
+  "denoise": 1.0,
+  "gain_db": -6,
+  "fallback_gain_db": -9,
+  "history": "First run clipped in 10/18 files; regenerated at -6 dB (same seeds, so content is unchanged and only the level differs). The clipped first run is kept in _clipped_run1/.",
+  "negative": "music, melody, speech, vocals, singing, low quality, noise, hum",
+  "sounds": [
+    {"id": "SFX-CAST", "seconds": 1.5, "prompt": "short magical fire spell cast, quick whoosh with crackling flames, bright and punchy, game sound effect"},
+    {"id": "SFX-WOLF-DOWN", "seconds": 2.0, "prompt": "small wolf yelp followed by a soft thud on stone, short, game sound effect"},
+    {"id": "SFX-HURT", "seconds": 1.0, "prompt": "short soft body impact hit with a cloth rustle, game damage sound"},
+    {"id": "SFX-FAIL", "seconds": 2.0, "prompt": "low descending magical tone fading into darkness, short game failure sound"},
+    {"id": "SFX-CLEAR", "seconds": 3.0, "prompt": "short bright rising magical chime, warm and hopeful, game level complete jingle"},
+    {"id": "SFX-HEAL", "seconds": 2.0, "prompt": "soft warm shimmering magical sparkle rising, gentle healing spell, game sound"}
+  ]
+}

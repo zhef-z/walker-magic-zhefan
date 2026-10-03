@@ -1,0 +1,873 @@
+{
+  "generated": "2026-10-02T16:27:08-04:00",
+  "groups": {
+    "mage": {
+      "palette": {
+        "hair-shade": "#9F9CAD",
+        "hair-base": "#E8E6F0",
+        "hair-light": "#F9F6FF",
+        "red-shade": "#9A0225",
+        "red-base": "#D62839",
+        "red-light": "#FF5F59",
+        "indigo-shade": "#201973",
+        "indigo-base": "#3A40A0",
+        "indigo-light": "#6962C7",
+        "gold-shade": "#995E11",
+        "gold-base": "#D4A63A",
+        "gold-light": "#FFE66B",
+        "tunic-shade": "#4D3931",
+        "tunic-base": "#6B5A4E",
+        "tunic-light": "#887B6B",
+        "skin-shade": "#B09186",
+        "skin-base": "#F5DCCD",
+        "skin-light": "#FFEFDE",
+        "outline": "#1A1420"
+      },
+      "f_idle": 32.578,
+      "face_width_target_px": 4.64,
+      "canvas": [
+        62,
+        69
+      ],
+      "contact_sheet": "assets/sprites/mage/mage-contact-sheet-4x.png"
+    },
+    "wolf": {
+      "palette": {
+        "c0": "#B5C1CE",
+        "c1": "#ABB9C7",
+        "c2": "#788FA7",
+        "c3": "#7087A1",
+        "c4": "#6E869F",
+        "c5": "#6C849E",
+        "c6": "#688099",
+        "c7": "#435C79",
+        "c8": "#1A2847",
+        "c9": "#030933",
+        "accent": "#3EF1E6",
+        "outline": "#1A1420"
+      },
+      "scale": 33.861,
+      "canvas": [
+        80,
+        40
+      ],
+      "contact_sheet": "assets/sprites/wolf/wolf-contact-sheet-4x.png"
+    },
+    "fx": {
+      "palette": {
+        "c0": "#FEE998",
+        "c1": "#FD9717",
+        "c2": "#FE770E",
+        "c3": "#ED4C05",
+        "c4": "#AC1B02",
+        "c5": "#980D02",
+        "c6": "#480301",
+        "c7": "#2D0401",
+        "outline": "#1A1420"
+      },
+      "contact_sheet": "assets/sprites/fx/fx-contact-sheet-4x.png"
+    },
+    "tiles": {
+      "palette": {
+        "c0": "#797069",
+        "c1": "#433F3E",
+        "c2": "#343539",
+        "c3": "#303035",
+        "c4": "#292B32",
+        "c5": "#22242D",
+        "c6": "#1E1E27",
+        "c7": "#1A1C25",
+        "c8": "#151720",
+        "c9": "#0E1018",
+        "outline": "#1A1420"
+      },
+      "tile_size": [
+        37,
+        33
+      ],
+      "seam_preview": "assets/sprites/env/tiles-seam-preview-4x.png"
+    },
+    "background": {}
+  },
+  "assets": [
+    {
+      "group": "mage",
+      "asset": "idle",
+      "source": "design/character/generated/CHAR-IDLE-v1.jpg",
+      "source_sha256": "4d539420cd9082f01d3d761b471a21c378db3cd8ba6071478acb1776dfb4be41",
+      "source_size": [
+        1920,
+        2184
+      ],
+      "bg_color": "#21E403",
+      "keyed_px": 3208607,
+      "speckle_px_removed": 0,
+      "despilled_px": 42335,
+      "glow_px_removed": 0,
+      "figure_bbox_src": [
+        478,
+        70,
+        1536,
+        2154
+      ],
+      "face_bbox_src": [
+        965,
+        519,
+        1115,
+        727
+      ],
+      "face_w_src": 151,
+      "face_h_src": 209,
+      "ground_y_src": 2154,
+      "ground_mode": "feet",
+      "center_x_src": 1040.0,
+      "overrides": {},
+      "scale_src_px_per_px": 32.578,
+      "face_w_out": 4.64,
+      "face_h_out": 6.42,
+      "out_height_px": 64,
+      "outline_px": 287,
+      "canvas": [
+        62,
+        69
+      ],
+      "anchor_out": [
+        31,
+        67
+      ],
+      "file": "assets/sprites/mage/mage_idle.png",
+      "size": [
+        62,
+        69
+      ],
+      "sha256": "24658784e011238e6d4e75d369720d33a5e6855824aafc23762ab0340a6aaf56",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 14
+    },
+    {
+      "group": "mage",
+      "asset": "run_contact",
+      "source": "design/character/generated/CHAR-RUN-CONTACT-v3.jpg",
+      "source_sha256": "b3088e3858c06b0eba8d66935eecdf41816b76a7e92bb7ae34aa10fa7d081c99",
+      "source_size": [
+        1024,
+        1024
+      ],
+      "bg_color": "#22DD05",
+      "keyed_px": 777905,
+      "speckle_px_removed": 0,
+      "despilled_px": 19907,
+      "glow_px_removed": 0,
+      "figure_bbox_src": [
+        116,
+        35,
+        830,
+        1007
+      ],
+      "face_bbox_src": [
+        534,
+        240,
+        608,
+        361
+      ],
+      "face_w_src": 75,
+      "face_h_src": 122,
+      "ground_y_src": 1007,
+      "ground_mode": "feet",
+      "center_x_src": 571.0,
+      "overrides": {},
+      "scale_src_px_per_px": 16.181,
+      "face_w_out": 4.64,
+      "face_h_out": 7.54,
+      "out_height_px": 60,
+      "outline_px": 311,
+      "canvas": [
+        62,
+        69
+      ],
+      "anchor_out": [
+        31,
+        67
+      ],
+      "file": "assets/sprites/mage/mage_run_contact.png",
+      "size": [
+        62,
+        69
+      ],
+      "sha256": "a74333c7a93d679bf294d10fb792bd7bd526de3f3d5d1b4478f9140a103b5421",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 11
+    },
+    {
+      "group": "mage",
+      "asset": "run_passing",
+      "source": "design/character/generated/CHAR-RUN-PASSING-v1.png",
+      "source_sha256": "efbd508bb526aa50ba6f1ccd070ef9d8223c7cc147340463afeaac5acfbe41a3",
+      "source_size": [
+        900,
+        1024
+      ],
+      "bg_color": "#25DC05",
+      "keyed_px": 692835,
+      "speckle_px_removed": 0,
+      "despilled_px": 22035,
+      "glow_px_removed": 0,
+      "figure_bbox_src": [
+        108,
+        33,
+        720,
+        997
+      ],
+      "face_bbox_src": [
+        450,
+        228,
+        522,
+        341
+      ],
+      "face_w_src": 73,
+      "face_h_src": 114,
+      "ground_y_src": 997,
+      "ground_mode": "feet",
+      "center_x_src": 486.0,
+      "overrides": {},
+      "scale_src_px_per_px": 15.75,
+      "face_w_out": 4.64,
+      "face_h_out": 7.24,
+      "out_height_px": 61,
+      "outline_px": 264,
+      "canvas": [
+        62,
+        69
+      ],
+      "anchor_out": [
+        31,
+        67
+      ],
+      "file": "assets/sprites/mage/mage_run_passing.png",
+      "size": [
+        62,
+        69
+      ],
+      "sha256": "d8ad18e406dfa9545b681ffecb87f2ef8ba824aa7c3e2b33b7a5fa85f9ba91fe",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 13
+    },
+    {
+      "group": "mage",
+      "asset": "rise",
+      "source": "design/character/generated/CHAR-RISE-v1.jpg",
+      "source_sha256": "c03b54b4701cd74187bac58a4d1276c0aa27328812ba5a7f7b6949de66feedaa",
+      "source_size": [
+        1920,
+        2184
+      ],
+      "bg_color": "#2ADA02",
+      "keyed_px": 3209105,
+      "speckle_px_removed": 1,
+      "despilled_px": 37550,
+      "glow_px_removed": 0,
+      "figure_bbox_src": [
+        441,
+        70,
+        1538,
+        1926
+      ],
+      "face_bbox_src": [
+        965,
+        519,
+        1114,
+        727
+      ],
+      "face_w_src": 150,
+      "face_h_src": 209,
+      "ground_y_src": 1926,
+      "ground_mode": "feet",
+      "center_x_src": 1039.5,
+      "overrides": {},
+      "scale_src_px_per_px": 32.362,
+      "face_w_out": 4.64,
+      "face_h_out": 6.46,
+      "out_height_px": 57,
+      "outline_px": 259,
+      "canvas": [
+        62,
+        69
+      ],
+      "anchor_out": [
+        31,
+        67
+      ],
+      "file": "assets/sprites/mage/mage_rise.png",
+      "size": [
+        62,
+        69
+      ],
+      "sha256": "c71752d6ad621dd381ff9cf9ce047111dbd9e19d1f5acc51b17c0cea1729dd07",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 12
+    },
+    {
+      "group": "mage",
+      "asset": "fall",
+      "source": "design/character/generated/CHAR-FALL-v1.jpg",
+      "source_sha256": "2c8f7083b5c130b55e0b5e41d04a3522e9fe685498a6cb21ea85172213302569",
+      "source_size": [
+        1920,
+        2184
+      ],
+      "bg_color": "#27DC01",
+      "keyed_px": 3012874,
+      "speckle_px_removed": 0,
+      "despilled_px": 47485,
+      "glow_px_removed": 0,
+      "figure_bbox_src": [
+        229,
+        28,
+        1536,
+        2127
+      ],
+      "face_bbox_src": [
+        965,
+        520,
+        1115,
+        727
+      ],
+      "face_w_src": 151,
+      "face_h_src": 208,
+      "ground_y_src": 2127,
+      "ground_mode": "feet",
+      "center_x_src": 1040.0,
+      "overrides": {},
+      "scale_src_px_per_px": 32.578,
+      "face_w_out": 4.64,
+      "face_h_out": 6.38,
+      "out_height_px": 64,
+      "outline_px": 328,
+      "canvas": [
+        62,
+        69
+      ],
+      "anchor_out": [
+        31,
+        67
+      ],
+      "file": "assets/sprites/mage/mage_fall.png",
+      "size": [
+        62,
+        69
+      ],
+      "sha256": "15dbf1c1392b68f95ccc31130bd378a2b1419639b46388b95a1a5f02d455274d",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 13
+    },
+    {
+      "group": "mage",
+      "asset": "cast",
+      "source": "design/character/generated/CHAR-CAST-v3.jpg",
+      "source_sha256": "571ef078b90726b45ce5f81c13936786d378fde85faa47582885fad73d464238",
+      "source_size": [
+        1920,
+        2184
+      ],
+      "bg_color": "#2CD302",
+      "keyed_px": 3181118,
+      "speckle_px_removed": 0,
+      "despilled_px": 44237,
+      "glow_px_removed": 6041,
+      "figure_bbox_src": [
+        478,
+        69,
+        1546,
+        2164
+      ],
+      "face_bbox_src": [
+        963,
+        484,
+        1112,
+        727
+      ],
+      "face_w_src": 150,
+      "face_h_src": 244,
+      "ground_y_src": 2164,
+      "ground_mode": "feet",
+      "center_x_src": 1037.5,
+      "overrides": {},
+      "scale_src_px_per_px": 32.362,
+      "face_w_out": 4.64,
+      "face_h_out": 7.54,
+      "out_height_px": 65,
+      "outline_px": 306,
+      "canvas": [
+        62,
+        69
+      ],
+      "anchor_out": [
+        31,
+        67
+      ],
+      "file": "assets/sprites/mage/mage_cast.png",
+      "size": [
+        62,
+        69
+      ],
+      "sha256": "917b448ab10205d45d4b97cc69c8ba1c011743572a350f9b4e7af56ff79315da",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 15
+    },
+    {
+      "group": "mage",
+      "asset": "hurt",
+      "source": "design/character/generated/CHAR-HURT-v1.jpg",
+      "source_sha256": "7ba376556f1fde471a1b467d8d703da4e9a3f63fe6f9a331d361941d1c24d152",
+      "source_size": [
+        1920,
+        2184
+      ],
+      "bg_color": "#28DF01",
+      "keyed_px": 3116836,
+      "speckle_px_removed": 0,
+      "despilled_px": 41448,
+      "glow_px_removed": 0,
+      "figure_bbox_src": [
+        312,
+        69,
+        1653,
+        2153
+      ],
+      "face_bbox_src": [
+        964,
+        479,
+        1112,
+        727
+      ],
+      "face_w_src": 149,
+      "face_h_src": 249,
+      "ground_y_src": 2153,
+      "ground_mode": "feet",
+      "center_x_src": 1038.0,
+      "overrides": {},
+      "scale_src_px_per_px": 32.147,
+      "face_w_out": 4.64,
+      "face_h_out": 7.75,
+      "out_height_px": 65,
+      "outline_px": 270,
+      "canvas": [
+        62,
+        69
+      ],
+      "anchor_out": [
+        31,
+        67
+      ],
+      "file": "assets/sprites/mage/mage_hurt.png",
+      "size": [
+        62,
+        69
+      ],
+      "sha256": "3634b849d10b434a9003d1b33b98fb15e328b8d977908fd5e73464ac4c3a1680",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 12
+    },
+    {
+      "group": "mage",
+      "asset": "fail",
+      "source": "design/character/generated/CHAR-FAIL-v1.jpg",
+      "source_sha256": "0d33c8d4b098d486561ecc5deb5abf123d4a8c6611888d174f4da209419cf326",
+      "source_size": [
+        1920,
+        2184
+      ],
+      "bg_color": "#28E102",
+      "keyed_px": 3276320,
+      "speckle_px_removed": 0,
+      "despilled_px": 34083,
+      "glow_px_removed": 0,
+      "figure_bbox_src": [
+        432,
+        70,
+        1748,
+        1932
+      ],
+      "face_bbox_src": [
+        963,
+        486,
+        1111,
+        732
+      ],
+      "face_w_src": 149,
+      "face_h_src": 247,
+      "ground_y_src": 1932,
+      "ground_mode": "knees",
+      "center_x_src": 1037.0,
+      "overrides": {},
+      "scale_src_px_per_px": 32.147,
+      "face_w_out": 4.64,
+      "face_h_out": 7.68,
+      "out_height_px": 58,
+      "outline_px": 240,
+      "canvas": [
+        62,
+        69
+      ],
+      "anchor_out": [
+        31,
+        67
+      ],
+      "file": "assets/sprites/mage/mage_fail.png",
+      "size": [
+        62,
+        69
+      ],
+      "sha256": "bd0544679db187b6e7bc456ef855365e1d581ca7fd2b2a1a6dea4ad2586d94e5",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 14
+    },
+    {
+      "group": "mage",
+      "asset": "win",
+      "source": "design/character/generated/CHAR-WIN-v1.jpg",
+      "source_sha256": "c5d05ccab469970ed0efe53a5f55fcd8725efe1a88b6d185e960ca132497194c",
+      "source_size": [
+        1920,
+        2184
+      ],
+      "bg_color": "#2ADF02",
+      "keyed_px": 3222832,
+      "speckle_px_removed": 0,
+      "despilled_px": 34442,
+      "glow_px_removed": 0,
+      "figure_bbox_src": [
+        265,
+        70,
+        1793,
+        2155
+      ],
+      "face_bbox_src": [
+        965,
+        527,
+        1113,
+        727
+      ],
+      "face_w_src": 149,
+      "face_h_src": 201,
+      "ground_y_src": 2155,
+      "ground_mode": "feet",
+      "center_x_src": 1039.0,
+      "overrides": {},
+      "scale_src_px_per_px": 32.147,
+      "face_w_out": 4.64,
+      "face_h_out": 6.25,
+      "out_height_px": 65,
+      "outline_px": 279,
+      "canvas": [
+        62,
+        69
+      ],
+      "anchor_out": [
+        31,
+        67
+      ],
+      "file": "assets/sprites/mage/mage_win.png",
+      "size": [
+        62,
+        69
+      ],
+      "sha256": "84a003880ba947c45c2532d7ed56330f29cf2b5a4a0b067c7daee4a61022e8e2",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 12
+    },
+    {
+      "group": "wolf",
+      "asset": "run",
+      "source": "design/character/generated/ENEMY-WOLF-RUN-v2.jpg",
+      "source_sha256": "6f4b16ce96321d99497cfabb691b404c720faca0ed59f8bfe68f51800e07f2cb",
+      "bg_color": "#08FB33",
+      "keyed_px": 3149959,
+      "speckle_px_removed": 0,
+      "despilled_px": 12522,
+      "figure_bbox_src": [
+        176,
+        176,
+        2639,
+        1394
+      ],
+      "ground_y_src": 1394,
+      "center_x_src": 1407.5,
+      "overrides": {},
+      "scale_src_px_per_px": 33.861,
+      "out_height_px": 36,
+      "outline_px": 194,
+      "canvas": [
+        80,
+        40
+      ],
+      "file": "assets/sprites/wolf/wolf_run.png",
+      "size": [
+        80,
+        40
+      ],
+      "sha256": "a193c4e1578c14992ac76ded0e135c7cb2d57627cbab50bea407f1852108e83a",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 10
+    },
+    {
+      "group": "wolf",
+      "asset": "lunge",
+      "source": "design/character/generated/ENEMY-WOLF-LUNGE-v2.jpg",
+      "source_sha256": "4b3657098ef90085aedf96f0f6df99ae32776dcea55bf4b2b31e53de90da312d",
+      "bg_color": "#0FF435",
+      "keyed_px": 3026238,
+      "speckle_px_removed": 0,
+      "despilled_px": 16305,
+      "figure_bbox_src": [
+        153,
+        199,
+        2639,
+        1289
+      ],
+      "ground_y_src": 1289,
+      "center_x_src": 1396.0,
+      "overrides": {},
+      "scale_src_px_per_px": 33.861,
+      "out_height_px": 32,
+      "outline_px": 250,
+      "canvas": [
+        80,
+        40
+      ],
+      "file": "assets/sprites/wolf/wolf_lunge.png",
+      "size": [
+        80,
+        40
+      ],
+      "sha256": "d0c2af7957e4afc229db6bf02e1a55afe77e002cd00f914bf91be9507b6b3fac",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 11
+    },
+    {
+      "group": "wolf",
+      "asset": "down",
+      "source": "design/character/generated/ENEMY-WOLF-DOWN-v3.jpg",
+      "source_sha256": "4e1c928308bb4e09589983e32ddb829f141374d6b8c92d7d0867b2075b739665",
+      "bg_color": "#1DE23B",
+      "keyed_px": 3028371,
+      "speckle_px_removed": 0,
+      "despilled_px": 15250,
+      "figure_bbox_src": [
+        141,
+        317,
+        2663,
+        1289
+      ],
+      "ground_y_src": 1289,
+      "center_x_src": 1402.0,
+      "overrides": {},
+      "scale_src_px_per_px": 33.861,
+      "out_height_px": 29,
+      "outline_px": 215,
+      "canvas": [
+        80,
+        40
+      ],
+      "file": "assets/sprites/wolf/wolf_down.png",
+      "size": [
+        80,
+        40
+      ],
+      "sha256": "68217cd998a9a2c993b80c2dfe6dc88d448d5da25fd4059d620c64a9142d1163",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 7
+    },
+    {
+      "group": "fx",
+      "asset": "fireball",
+      "source": "design/character/generated/FX-FIREBALL-BURST-v1.jpg",
+      "source_sha256": "02e92f2515065aa908c52dbbe995d071af6810490a09c41e0de935fc708f0bd8",
+      "crop_src": [
+        150,
+        420,
+        1300,
+        1100
+      ],
+      "bg_color": "#24DE35",
+      "keyed_px": 402658,
+      "speckle_px_removed": 0,
+      "despilled_px": 4460,
+      "discarded_px": 0,
+      "shape_bbox_in_crop": [
+        38,
+        49,
+        1116,
+        635
+      ],
+      "scale_src_px_per_px": 48.917,
+      "target_height_px": 12,
+      "outline_px": 42,
+      "file": "assets/sprites/fx/fx_fireball.png",
+      "size": [
+        25,
+        14
+      ],
+      "sha256": "ba2c30af1a066861782d78a0968e3e35110298e3ba7818972aed1ec76cabf76c",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 6
+    },
+    {
+      "group": "fx",
+      "asset": "burst",
+      "source": "design/character/generated/FX-FIREBALL-BURST-v1.jpg",
+      "source_sha256": "02e92f2515065aa908c52dbbe995d071af6810490a09c41e0de935fc708f0bd8",
+      "crop_src": [
+        1500,
+        240,
+        2650,
+        1320
+      ],
+      "bg_color": "#24DE35",
+      "keyed_px": 520380,
+      "speckle_px_removed": 0,
+      "despilled_px": 9823,
+      "discarded_px": 0,
+      "shape_bbox_in_crop": [
+        49,
+        30,
+        1104,
+        1050
+      ],
+      "scale_src_px_per_px": 42.542,
+      "target_height_px": 24,
+      "outline_px": 110,
+      "file": "assets/sprites/fx/fx_burst.png",
+      "size": [
+        27,
+        26
+      ],
+      "sha256": "62ad2d36a3d1bb8cd1ecefcbfeaf9d10e386b1d1cc5590e465d6185d76ca3830",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 8
+    },
+    {
+      "group": "tiles",
+      "asset": "cave_ground_tile",
+      "source": "design/environment/generated/ENV-TILES-v2.jpg",
+      "source_sha256": "da1a44ba69804b5c25814e51c8dc6240dee8820907763f8047267ea7d597781e",
+      "bg_color": "#04F905",
+      "keyed_px": 1514890,
+      "speckle_px_removed": 0,
+      "despilled_px": 33590,
+      "crop_requested_src": [
+        618,
+        247,
+        1809,
+        1323
+      ],
+      "crop_used_src": [
+        618,
+        247,
+        1823.4,
+        1322.1
+      ],
+      "crop_note": "User gave x=230..673 measured on the image displayed 1024 px wide; scaled by 2752/1024 to source pixels.",
+      "scale_src_px_per_px": 32.578,
+      "file": "assets/sprites/env/cave_ground_tile.png",
+      "size": [
+        37,
+        33
+      ],
+      "sha256": "489adf315ff2a67cb708a7d0444b9cd546b7693e3f6cc692db9ad646c1715fb6",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 9
+    },
+    {
+      "group": "tiles",
+      "asset": "cave_ground_cap_left",
+      "source": "design/environment/generated/ENV-TILES-v2.jpg",
+      "source_sha256": "da1a44ba69804b5c25814e51c8dc6240dee8820907763f8047267ea7d597781e",
+      "bg_color": "#04F905",
+      "keyed_px": 1514890,
+      "speckle_px_removed": 0,
+      "despilled_px": 33590,
+      "crop_requested_src": null,
+      "crop_used_src": [
+        2393.6,
+        247,
+        2752,
+        1322.1
+      ],
+      "crop_note": "join side trimmed to first >90% opaque column",
+      "scale_src_px_per_px": 32.578,
+      "file": "assets/sprites/env/cave_ground_cap_left.png",
+      "size": [
+        11,
+        33
+      ],
+      "sha256": "75a73f3a3b8ca0075c607842e301dd8e9b0be24b882bd095e9f66cff1d020f12",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 9
+    },
+    {
+      "group": "tiles",
+      "asset": "cave_ground_cap_right",
+      "source": "design/environment/generated/ENV-TILES-v2.jpg",
+      "source_sha256": "da1a44ba69804b5c25814e51c8dc6240dee8820907763f8047267ea7d597781e",
+      "bg_color": "#04F905",
+      "keyed_px": 1514890,
+      "speckle_px_removed": 0,
+      "despilled_px": 33590,
+      "crop_requested_src": null,
+      "crop_used_src": [
+        1881,
+        247,
+        2206.8,
+        1322.1
+      ],
+      "crop_note": "join side trimmed to first >90% opaque column",
+      "scale_src_px_per_px": 32.578,
+      "file": "assets/sprites/env/cave_ground_cap_right.png",
+      "size": [
+        10,
+        33
+      ],
+      "sha256": "c791ada02bba809cdd09076220fd54a5535428c8e48d1ec09d21aba11146ccc6",
+      "binary_alpha": true,
+      "off_palette_px": 0,
+      "colors_used": 9
+    },
+    {
+      "group": "background",
+      "asset": "cave_bg",
+      "source": "design/environment/generated/ENV-BG-v1.jpg",
+      "source_sha256": "bfa847b69e35a5fe52375f914be490b4dffe71a16233fc80611aab56c16feb0e",
+      "crop_src": [
+        10,
+        0,
+        2741,
+        1536
+      ],
+      "method": "center crop to 16:9, nearest-neighbour sample at block centres, no quantize",
+      "scale_src_px_per_px": 4.267,
+      "file": "assets/sprites/env/cave_bg.png",
+      "size": [
+        640,
+        360
+      ],
+      "sha256": "4d13a3115d59f7b362021bb4452da8b7ade8e9eb474f8f9920b5c9c41b027379"
+    }
+  ]
+}

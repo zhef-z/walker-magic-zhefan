@@ -26,3 +26,7 @@ export_credentials.cfg
 *.safetensors
 *.ckpt
 hf_token*
+
+# Raw audio (generated variants live outside the repo in E:/7270/tools/sfx_raw)
+*.wav
+*.flac

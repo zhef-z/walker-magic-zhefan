@@ -1,0 +1,127 @@
+{
+  "_comment": "Per-asset cleanup settings for tools/clean_sprites.py. Coordinates are source-image pixels. 'override' values replace the auto-detected landmarks; every value used is written to assets/sprites/EDIT-LOG.md.",
+  "key": {
+    "tolerance": 90,
+    "green_dominance": 60,
+    "despill_band_px": 14,
+    "min_component_px": 400
+  },
+  "mage": {
+    "dir": "design/character/generated",
+    "out": "assets/sprites/mage",
+    "idle_height_px": 64,
+    "pad_px": 2,
+    "frames": {
+      "idle": {
+        "src": "CHAR-IDLE-v1.jpg"
+      },
+      "run_contact": {
+        "src": "CHAR-RUN-CONTACT-v3.jpg"
+      },
+      "run_passing": {
+        "src": "CHAR-RUN-PASSING-v1.png"
+      },
+      "rise": {
+        "src": "CHAR-RISE-v1.jpg"
+      },
+      "fall": {
+        "src": "CHAR-FALL-v1.jpg"
+      },
+      "cast": {
+        "src": "CHAR-CAST-v3.jpg"
+      },
+      "hurt": {
+        "src": "CHAR-HURT-v1.jpg"
+      },
+      "fail": {
+        "src": "CHAR-FAIL-v1.jpg",
+        "ground": "knees"
+      },
+      "win": {
+        "src": "CHAR-WIN-v1.jpg"
+      }
+    }
+  },
+  "wolf": {
+    "dir": "design/character/generated",
+    "out": "assets/sprites/wolf",
+    "height_px": 36,
+    "scale_from": "run",
+    "colors": 10,
+    "pad_px": 2,
+    "frames": {
+      "run": {
+        "src": "ENEMY-WOLF-RUN-v2.jpg"
+      },
+      "lunge": {
+        "src": "ENEMY-WOLF-LUNGE-v2.jpg"
+      },
+      "down": {
+        "src": "ENEMY-WOLF-DOWN-v3.jpg"
+      }
+    },
+    "keep_accent": true
+  },
+  "fx": {
+    "dir": "design/character/generated",
+    "src": "FX-FIREBALL-BURST-v1.jpg",
+    "out": "assets/sprites/fx",
+    "colors": 8,
+    "pad_px": 1,
+    "sprites": {
+      "fireball": {
+        "crop": [
+          150,
+          420,
+          1300,
+          1100
+        ],
+        "height_px": 12
+      },
+      "burst": {
+        "crop": [
+          1500,
+          240,
+          2650,
+          1320
+        ],
+        "height_px": 24
+      }
+    }
+  },
+  "tiles": {
+    "dir": "design/environment/generated",
+    "src": "ENV-TILES-v2.jpg",
+    "out": "assets/sprites/env",
+    "colors": 10,
+    "tile_crop_note": "User gave x=230..673 measured on the image displayed 1024 px wide; scaled by 2752/1024 to source pixels.",
+    "tile_crop": [
+      618,
+      247,
+      1809,
+      1323
+    ],
+    "cap_right_crop": [
+      1881,
+      247,
+      2201,
+      1324
+    ],
+    "cap_left_crop": [
+      2391,
+      247,
+      2752,
+      1324
+    ],
+    "preview_tiles": 3
+  },
+  "background": {
+    "dir": "design/environment/generated",
+    "src": "ENV-BG-v1.jpg",
+    "out": "assets/sprites/env",
+    "size": [
+      640,
+      360
+    ]
+  }
+}
